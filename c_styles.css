@@ -1,0 +1,48 @@
+/*
+ New Perspectives on HTML
+ Tutorial 3 Case Problem 1
+ ICI Text and Color Styles
+ Author: Maggie George
+ Date: October 19th 2015
+ Filename: c_styles.css
+ Supporting Files: none
+*/
+	/* Body Styles */
+	/* Creates style rule setting body background color to black and text to white
+	Sets the default font list to Century Gothic followed by a generic sans-serif font
+	- Step #8 */
+		body {
+		background-color: black;
+		color: white;
+		font-family: "Century Gothic",sans-serif;
+}
+	/* Heading Styles */
+	/* Sets style rule for h1 heading nested within the header element - Step #8 */
+		header h1 {
+		color: yellow;
+		font-family: "Courier New", Courier, monospace;
+		font-size: 28px;
+		letter-spacing: 20px;
+		text-align: center;
+		}
+	/* Sets style rule for h2 heading nested within the article element - Step #9 */
+		article h2 {
+		font-size: 24px;
+		font-weight: normal;
+		letter-spacing: 5px;
+		}
+	/* Section styles */
+	/* Aligns paragraph text within the article element to full justification - Step #10 */
+		article p {
+		text-align: justify;
+		}
+		strong.keyword {
+		color: yellow;
+		font-weight: normal;
+		}
+		footer p {
+		text-align: center;
+		}
+		#locks {
+		border: 0px;
+		}
